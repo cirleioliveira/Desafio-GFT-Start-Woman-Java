@@ -1,0 +1,43 @@
+Professor: Denilson Bonatti
+
+o que é logica: 
+"coerencia de raciocinio, de ideias"
+"sequencia coerente, regular e necessario de acontecimentos, coisa"
+----
+"Logica de Programação significa appenas contestualizar a logica na programação de computadores, bucando  a melhot sequencia de açoes para solucionar um problema"
+
+metacognição "Pensar como voce pensa"
+ Abstração - "é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer ignorando caracteristicas menos importantes ou acidentais"
+
+----------
+LOGICA DE PROGRAMAÇÃO: ALGORITMOS E PSEUDOCÓDIGO
+
+O QUE É UM ALGORITMOS: é uma sequencia de passos que resolve um problema
+exemplo:
+inicio-dia
+	acordei
+	levantei da cama
+	troquei de roupa
+	escovei os dentes
+	fui a padaria
+	tomei café
+	escoveis os dentes
+	fui ao trabalho
+	...
+fim-dia
+
+https://studio.code.org./s/mc/stage/1/puzzle/1 CODIGO EM BLOCO
+
+pseudocodigo: "é uma forma geneica de escrever um algoritmos, utilizando uma linguegem simples (nativa, ou seja, em portugues a quem o escreve, de forma a ser entendida por qualquer pessoa.)"
+
+https://www.proprofs.com/games/wolf-shepp-and-cabbage/
+
+https://rachacuca.com.br/jogos/pinguins-numa-fria/
+
+----------------
+Aprendendo fluxograma, variaveise constantes
+
+http://www.flowgorithm.org
+
+compilador portugol:
+https://github.com/UNIVALI-LITE/Portugol-Studio/releases/

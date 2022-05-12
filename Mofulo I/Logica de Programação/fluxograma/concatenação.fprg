@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="shirl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-24 03:56:09 "/>
+        <attribute name="created" value="c2hpcmw7Q0lSTEVJT0xJVkVJUkE7MjAyMi0wNC0yMzsiMDk6NTU6NDQgIjsyNzg2"/>
+        <attribute name="edited" value="c2hpcmw7Q0lSTEVJT0xJVkVJUkE7MjAyMi0wNC0yNDsiMDM6NTY6MDkgIjsxMzsyOTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual &#233; seu sobrenome: &quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual a sua idade: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Informe a nota 1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Informe a nota 2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Informe a nota 3&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Informe a nota 4: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <assign variable="media" expression="total/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;O seu nome &#233;: &quot; &amp; nome &amp; &quot; &quot; &amp; sobrenome &amp; &quot;. Sua idade &#233;: &quot; &amp; idade &amp; &quot; anos. A sua media &#233;: &quot; &amp; media &amp; &quot;. Voc&#234; foi aprovado, Parab&#233;ns!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O seu nome &#233;: &quot; &amp; nome &amp; &quot; &quot; &amp; sobrenome &amp; &quot;. Sua idade &#233;: &quot; &amp; idade &amp; &quot; anos. A sua media &#233;: &quot; &amp; media &amp; &quot;. Voc&#234; foi Reprovado, tente novamente!&quot;" newline="True"/>
+                </else>
+            </if>
+            <comment text="&amp;nome e a concatena&#231;&#227;o "/>
+        </body>
+    </function>
+</flowgorithm>
