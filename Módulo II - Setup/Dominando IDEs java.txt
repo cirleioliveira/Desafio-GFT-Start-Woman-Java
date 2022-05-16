@@ -49,5 +49,47 @@ Caso alteração, fazer o procedimento 1 e depois o 2
 https://github.com/cami-la/curso-dio-dominando-ides-java
 baixar IDEs:
 https://www.eclipse.org/downloads/packages/
+https://www.jetbrains.com/idea/download/#section=windows
+****************
+
+* ECLIPSE
+- Criando seu primeiro projeto com Eclipse
+tecla de atalho:
+Ctrl + espaço: abre uma janela de atalho, digitar "main"
+para linha de comandos digitação: sysout
+
+- Atalho
+. caso fechou janelas:
+menu: window - show view - Talk list
+			      - Outline
+. Mudar o tema:
+window - preferences - General - aparence - Enable theming - dark - Apphy and Close - restart.
+				 	      - Colors and ...    - java - java editor text font ....  - Apphy
+Renomear F2 / botao direito refactor rename
+novo: Ctrl + n
+Ctrl + m = para aumentar tela ou diminuir
+
+criar construtor teclado: Ctrl + 3 - digitar constru "generation construtor using ...
+Ctrl + d - apaga a linha
+
+//Criar setters e gets: digitar Ctrl + 3 pequisar: ggas
+//criar equals e hashCode Ctrl + 3 pequisar: equals
+
+para mudar o bloco, selecione tecla Alt + seta pra onde quer mudar. 
+//importar Ctrl + Shift + o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
