@@ -1,0 +1,53 @@
+DOMINANDO IDEs JAVA
+* Apresentação do curso
+Camila Cavalcante
+https://www.linkedin.com/in/cami-la/
+https://github.com/cami-la
+
+* visao geral do curso
+Java - é um linguagem e programação orientada a objetos desenvolvida na decada de 90, na empresa Sun Microsystems o posteriormente adquirida pela Oracle em 2008.
+
+java SE
+java EE
+java ME
+
+extensão .java
+jdk - . class
+jvm - .class
+
+jdk
+jre
+
+IDE - Eclipse, IntelliJ IDEA
+IDE:
+VSCode
+netbeens
+JC
+
+Pesquisar google: openjdk zulu - v. 11
+
+--------
+public class PrimeiroPrograma{
+	public static void main(String args[]) {
+		System.out.println("Hello World");
+	}
+}
+/* Salvar com o nome da class "PrimeiroPrograma.java"
+abri o terminal CMD
+C:\Users\cirlei>cd "informa a pasta que se encontra o arquivo"
+ 
+C:\Users\cirlei\Documents\>javac PrimeiroPrograma.java // 1
+
+C:\Users\cirlei\Documents\>java PrimeiroPrograma //2
+Hello World
+
+Caso alteração, fazer o procedimento 1 e depois o 2
+*/
+
+****************
+- Intalação Intellij e Eclips no Windows
+https://github.com/cami-la/curso-dio-dominando-ides-java
+baixar IDEs:
+https://www.eclipse.org/downloads/packages/
+
+
