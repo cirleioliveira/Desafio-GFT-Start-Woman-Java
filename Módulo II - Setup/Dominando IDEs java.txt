@@ -1,4 +1,4 @@
-DOMINANDO IDEs JAVA
+﻿DOMINANDO IDEs JAVA
 * Apresentação do curso
 Camila Cavalcante
 https://www.linkedin.com/in/cami-la/

@@ -1,0 +1,44 @@
+1. Conceituação
+* Introdução
+Thiago Leite e Carvalho
+https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
+https://github.com/thiagoleitecarvalho
+https://github.com/tlcdio
+
+* Conceituação e criação
+	- Variaveis - "Um espaço de memoria do computador, onde se pode guardar valores."
+	existem 4 tipos:
+	* Instância: objeto
+	* Classe: classe
+	* Local: Dentro de metodos
+	* Parametro: Na assinatura do metodo
+
+- Criação
+	padrao de definição:
+	<?visibilidade?><?modificador?> tipo nome <?=valorInicial?>;
+
+	V: "public","protected" e "private"
+	M: "static" e "final" ("final" - nao muda o valor)
+	T: tipo de dados
+	N: nome que é fornecido a variavel
+	VI: um valor inicial, caso se deseje
+
+
+* Exercitando
+
+*********************************
+2. Tipos de dado
+* Tipos de dados
+
+* Exercitando
+
+3. Operadores Aritméticos
+* Operadores aritméticos 
+
+* exercitando
+
+4. Conversões (casting)
+
+* Encerramento
+
+* exercitando
