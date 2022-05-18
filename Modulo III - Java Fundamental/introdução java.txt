@@ -24,8 +24,6 @@ https://github.com/tlcdio
 	VI: um valor inicial, caso se deseje
 
 
-* Exercitando
-
 *********************************
 2. Tipos de dado
 * Tipos de dados - 
@@ -39,13 +37,30 @@ https://github.com/tlcdio
 	textual: char (aspa simpples 'T'), String (aspa dupla "T")
 	logico: boolean - TRUE or FALSE
 
-
+**************************************************
 3. Operadores Aritméticos
 * Operadores aritméticos 
+	Tipos:
+	pós-fixado: exp++ ou exp-- //soma depois
+	prefixado: ++exp pu --exp // soma antes
+	aritmetico: +,-,*,/ e %
+	atribuições: =, +=, -=, *=, /= e %=
+exemplo
+int i = ++k ---> i= k+1
+int j = --k ---> j= k-1
+float f = 1.5f + 4.5f;
+long l = 10398L * 5L;
+double d = 45d / 4d;
+int k = 15 % 4;
+double d = f;
+i += 5; ----> i=i+5;
+j += 3; ----> j=j-3;
+d /= 2.7d; ----> d= d/2.7d;
+l *=3; ---> l=l*3;
+k %= 2; ---> k=k%2;
 
-
-
+*********************************
 4. Conversões (casting)
 
-* Encerramento
+
 
