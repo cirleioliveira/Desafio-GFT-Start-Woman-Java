@@ -28,17 +28,24 @@ https://github.com/tlcdio
 
 *********************************
 2. Tipos de dado
-* Tipos de dados
+* Tipos de dados - 
+	"são os valores e consequentemente operações que as variáveis podem assumit e sofrer, respectivamente."
+	tipificação:
+	* estatica(forte) x dinamica(fraco)
+	* primitivo x composto
+	
+	exemplo numeral byte, short, int, long, float, double
 
-* Exercitando
+	textual: char (aspa simpples 'T'), String (aspa dupla "T")
+	logico: boolean - TRUE or FALSE
+
 
 3. Operadores Aritméticos
 * Operadores aritméticos 
 
-* exercitando
+
 
 4. Conversões (casting)
 
 * Encerramento
 
-* exercitando
