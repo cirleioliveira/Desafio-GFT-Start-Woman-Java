@@ -77,7 +77,12 @@ Ctrl + d - apaga a linha
 
 para mudar o bloco, selecione tecla Alt + seta pra onde quer mudar. 
 //importar Ctrl + Shift + o
+***************************************
 
+*DEBUG // encontrar e corrigir erros
+
+******************
+- intelliJ
 
 
 
