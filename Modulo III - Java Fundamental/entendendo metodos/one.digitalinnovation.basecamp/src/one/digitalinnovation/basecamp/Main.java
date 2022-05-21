@@ -27,6 +27,7 @@ public class Main {
         System.out.println("Emprestimo");
         Emprestimos.calcular(1000, Emprestimos.getduasparcelas());
         Emprestimos.calcular(1000, Emprestimos.gettresparcelas());
-        Emprestimos.calcular(100, 5);
+        Emprestimos.calcular(1500, 2);
+        Emprestimos.calcular(1000, 5);
     }
 }
