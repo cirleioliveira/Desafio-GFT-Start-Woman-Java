@@ -62,5 +62,9 @@ k %= 2; ---> k=k%2;
 *********************************
 4. Conversões (casting)
 
+tipos:
+	Upcast( implicito)
+	Downcast(explicito)
+
 
 

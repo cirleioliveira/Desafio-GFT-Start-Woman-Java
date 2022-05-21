@@ -1,0 +1,39 @@
+Modulo III
+- Entendendo métodos java
+
+Metodo deve ser criado dentro de uma classe
+
+<?visibilidade?> <?tipo?> <?modificador?> retorno
+    nome (<?parametros?>) <?exceções?> corpo
+  * '?' opcional, os que estao fora do "?" é obrigatorio
+
+************************
+conceitos inerentes
+* Construtor e Destrutor: sao metodos especiais usados na OO.
+*Mensagem: é o ato de solicitar ao metodo que o mesmo execute. esta pode ser direcionada a um objeto ou a uma classe.
+
+- passagem de parametros
+* por valor (cópia)
+int i = 10;
+public void fazendoAgo (int i){
+	i = i + 10;
+	System.out.println("Valor de i dentro: " + i);
+}
+System.out.println("Valor de i fora: " + i);
+
+	* por referencia (endereço) tem have com POO
+
+BOAS PRATICAS
+nome devemser descritivos, maus cursos
+notação camelo: verificarSaldo(); existeDebito();
+deve possuir entre 80 e 120 linhas
+evite lista de parametros longas
+visibilidade adequadas
+
+EXERCICIO
+Criar uma aplicação que resolva as seguintes situações:
+*Calccule as 4 operações básicas: soma, subtração, multiplicação, divisão. Sempre 2 valores devem ser pasados.
+* A partir da hora do dia, informe a mensagem adequado: Bom dia, Boa tarde e Boa noite.
+*Calcule o valor final de um emprestimo a partir do valor solicitado. Taxas e parcelas influenciam. Dedina arbitrariamente as faixas que influenciam nos valores.
+
+
