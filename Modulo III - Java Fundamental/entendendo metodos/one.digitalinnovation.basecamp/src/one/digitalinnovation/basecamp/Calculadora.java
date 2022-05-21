@@ -21,4 +21,5 @@ public class Calculadora {
         double resultado = numero1 / numero2;
         System.out.println("Total da divisão: " + numero1 + " / " + numero2 + " = " + resultado);
     }
+
 }

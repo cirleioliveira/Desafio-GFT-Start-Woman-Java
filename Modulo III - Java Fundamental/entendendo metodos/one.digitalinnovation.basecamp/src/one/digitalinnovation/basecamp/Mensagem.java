@@ -1,9 +1,9 @@
 package one.digitalinnovation.basecamp;
 
 public class Mensagem {
-    public static void main{
+    public static void obterMensagem(int hora){
 
-        switch (hora){
+        switch (hora) {
             case 5:
             case 6:
             case 7:
@@ -20,7 +20,7 @@ public class Mensagem {
             case 15:
             case 16:
             case 17:
-                mensagemBoaTarde;
+                mensagemBoaTarde();
                 break;
 
             case 18:
@@ -29,19 +29,26 @@ public class Mensagem {
             case 21:
             case 22:
             case 23:
-            case 24:
-                mensagemBoaNoite;
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                mensagemBoaNoite();
+                break;
+
+            default:
+                System.out.println("Horas invalida!");
                 break;
         }
-        public static void mensagemBomDia(){
-            System.out.println("Bom dia!");
-        }
-        public static void mensagemBoaTarde(){
-            System.out.println("Boa tarde");
-        }
-
-        System.out.println mensagemBoanoite(){
-            System.out.println("Boa noite!");
-        }
+    }
+    public static void mensagemBomdia(){
+        System.out.println("Bom dia!");
+    }
+    public static void mensagemBoaTarde(){
+        System.out.println("Boa tarde");
+    }
+    public static void mensagemBoaNoite(){
+        System.out.println("Boa noite!");
     }
 }

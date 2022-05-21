@@ -16,8 +16,17 @@ public class Main {
         Calculadora.multiplicacao(7, 8);
         Calculadora.divisao(5, 2.5);
 
-        Mensagem.cumprimento(10);
-        Mensagem.cumprimento(14);
-        Mensagem.cumprimento(1);
+        System.out.println();
+        System.out.println("Mensagem");
+        Mensagem.obterMensagem(10);
+        Mensagem.obterMensagem(14);
+        Mensagem.obterMensagem(1);
+        Mensagem.obterMensagem(24);
+
+        System.out.println();
+        System.out.println("Emprestimo");
+        Emprestimos.calcular(1000, Emprestimos.getduasparcelas());
+        Emprestimos.calcular(1000, Emprestimos.gettresparcelas());
+        Emprestimos.calcular(100, 5);
     }
 }
