@@ -7,7 +7,7 @@ Faça um programa que peça N números inteiros,
 calcule e mostre a quantidade de números pares
 e a quantidade de números impares.
 */
-public class Exemplo3_ParImpar {
+public class Exemplo4_ParImpar {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
