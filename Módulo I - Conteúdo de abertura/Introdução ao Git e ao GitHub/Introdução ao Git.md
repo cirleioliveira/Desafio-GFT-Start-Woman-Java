@@ -136,27 +136,27 @@ espaço "-" espaço //para lista
 buscar em ajudar para ver a formação de markdown
 *****************************************************
 
-## 5. CICLO DE VIDA DOS ARQUIVOS NO GIT
-* PASSO A PASSO NO CICLO DE VIDA
+## 5. CICLO DE VIDA DOS ARQUIVOS NO GIT 
+###**PASSO A PASSO NO CICLO DE VIDA**
 - tracked
      untracked     unmodified  		    modified      staged
 	|		|	  		|	    |
-        |----add o arquivo --------------------------->	    | >git add nome arquivo
+       	|----add o arquivo --------------------------->	    | >git add nome arquivo
 	|		|--edita arquivo-------	|	    | >git add *
 	|<--remove arq-	|			|	    | >git add.
 	|		|			|<-commit---| >git commit -m "msg.."
 
 
 				     ------------------------
-				     |      servidor	     |
-				     |	Remote repository |
+				     |    servidor	                |
+				     |    Remote repository  |
 				     -------------------------
 ----------------------------------------------------------
-|  Ambiente de desencolvimento			|
--------------	    ------------	----------------|
-|  working   |	    |   staging   |	|    local    	|
-| directory   |	    |     area     |	|   respocitory 	|
--------------	    ------------	-----------------
+  Ambiente de desencolvimento			
+----------------------------------------------------------
+--  working   --	    --   staging   --  	--   local    	--
+-- directory   --	    --     area     --	--   respocitory --
+----------------------------------------------------------
 	   > git add	   >git commit -m
 -------------------------------------------------
 - ls 
