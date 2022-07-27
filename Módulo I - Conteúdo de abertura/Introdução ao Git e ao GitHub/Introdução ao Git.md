@@ -1,6 +1,6 @@
-4INTRODUÇÃO AO GIT E AO GITHUB
+# 4. INTRODUÇÃO AO GIT E AO GITHUB
 
-1. ENTENDENDO O QUE É GIT E SUA IMPORTANCIA
+## 1. ENTENDENDO O QUE É GIT E SUA IMPORTANCIA
 Intrutor: Otávio Reis 
 
 bitKeep
@@ -13,7 +13,7 @@ GitLabvergan
 	4 - Melhorar seu código
 	5 - Reconhecimento
 
-2. NAVEGAÇÃO VIA COMMAND LINE INTERFACE E INSTALAÇÃO
+## 2. NAVEGAÇÃO VIA COMMAND LINE INTERFACE E INSTALAÇÃO
 
 -  COMANDOS BÁSICOS PARA UM BOM DESEMPENHO NO TERMINAL
 GUI x CLI
@@ -39,7 +39,7 @@ REALIZANDO A INSTALAÇÃO DO GIT
 na instalação do git, escolher a opção abaixo
 	() Git Credential Manager Core
 
-3. ENTENDENDO COMO O GIT FUNCIONA POR BAIXO DOS PANOS
+## 3. ENTENDENDO COMO O GIT FUNCIONA POR BAIXO DOS PANOS
 * Topicos fundamentais para entender o funcionamento do Git
 
 - SHA1: (Secure Hash Algoritm (Algoritmos de Hash seguro)), é um conjunto
@@ -83,7 +83,7 @@ $ ssh-add id-ed25519
 criar repositorio no github
 $ git clone //mas link do ssh do github
 
-4. PRIMEIROS COMANDO COM GIT
+## 4. PRIMEIROS COMANDO COM GIT
 * INICIANDO o git e criando um commit
  - comandos
 git init
@@ -136,7 +136,7 @@ espaço "-" espaço //para lista
 buscar em ajudar para ver a formação de markdown
 *****************************************************
 
-5. CICLO DE VIDA DOS ARQUIVOS NO GIT
+## 5. CICLO DE VIDA DOS ARQUIVOS NO GIT
 * PASSO A PASSO NO CICLO DE VIDA
 - tracked
      untracked     unmodified  		    modified      staged
@@ -177,48 +177,49 @@ $ git status
 $ git commit -m "add index"
 ******************************************************
 
-6. INTROCUÇÃO AO GITHUB
+## 6. INTROCUÇÃO AO GITHUB
 * TRABALHANDO COM GITHUB
 -------------------------------------------------------
 // não fazer
-$ git config -- list //para ver as configurações no git
-Criar github
+- git config -- list //para ver as configurações no git
+
+###### Criar github
 //se o git estive configurado o comando abaixo apaga a config existente
-$ git config --global --unset user.email
-$ git config --global --unset user.nickname
+- git config --global --unset user.email
+- git config --global --unset user.nickname
 -------------------------------------------------------
-$ git config --global user.email "shirley..."
-$ git config --global --unset user.name "cir..."
-$ git config -- list
+- git config --global user.email "shirley..."
+- git config --global --unset user.name "cir..."
+- git config -- list
 
-$ git remote add origin https:// ....   //add o link
-$ git remote -v
-$ git status
-$ git push origin master
-*******************************************************
+- git remote add origin https:// ....   //add o link
+- git remote -v
+- git status
+- git push origin master
 
-7. RESOLVENDO CONFLITOS
+
+## 7. RESOLVENDO CONFLITOS
 - como os conflitos acontece no GitHub e comoresolve-los
 
-add alteração
-$ ls
-$ git status
-$ git add *
-$ ls
-$ git status
-$ git commit - m"add receita pave"
-$ git push origin master
+#### **add alteração**
+- ls
+- git status
+- git add *
+- ls
+- git status
+- git commit - m"add receita pave"
+- git push origin master
 // ! foi regeitado
 
-$ git pull origin master // corrigir o arquivo
-$ git status
-$ git add *
-$ git commit -m "Resolve conflito"
-$ git push origin master
+- git pull origin master // corrigir o arquivo
+- git status
+- git add *
+- git commit -m "Resolve conflito"
+- git push origin master
 
-clonar repositorio existente no GitHub pelo git
-$ git clone https://github.com/....
-$ ls
-$ cd cpython/
-$ ls -a   
-$ git remote -v
+#### clonar repositorio existente no GitHub pelo git
+- git clone https://github.com/....
+- ls
+- cd cpython/
+- ls -a   
+- git remote -v
