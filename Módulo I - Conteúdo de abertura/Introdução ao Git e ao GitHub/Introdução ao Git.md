@@ -3,20 +3,24 @@
 ## 1. ENTENDENDO O QUE É GIT E SUA IMPORTANCIA
 Intrutor: Otávio Reis 
 
-bitKeep
-CVS
-GitLabvergan 
+-bitKeep
+-CVS
+-GitLabvergan 
 ...
-	1 - Controle de versão
-	2 - Armazenamento em nuvem
-	3 - trabalho em equipe
-	4 - Melhorar seu código
-	5 - Reconhecimento
+	1 - Controle de versão;
+
+	2 - Armazenamento em nuvem;
+
+	3 - trabalho em equipe;
+
+	4 - Melhorar seu código;
+
+	5 - Reconhecimento.
 
 ## 2. NAVEGAÇÃO VIA COMMAND LINE INTERFACE E INSTALAÇÃO
 
--  COMANDOS BÁSICOS PARA UM BOM DESEMPENHO NO TERMINAL
-GUI x CLI
+###  COMANDOS BÁSICOS PARA UM BOM DESEMPENHO NO TERMINAL
+#### GUI x CLI
 
 O que vamos aprender?
 - mudar de pasta
@@ -24,23 +28,23 @@ O que vamos aprender?
 - criar pastas/arquivos
 - deletar pastas/arquivos
 
-COMANDOS WINDOWS
-cd // navegar nas pastas ex. cd windows, cd ..
-dir //listas de diretorios "pastas"
-mkdir //criar uma pasta "workspace" 
-	para entrar na pasta >cd workspace
-	echo Hello > hello.txt
-del/rmdir //deleta a pasta "workspace", deleta conteuno da pasta
-cls //limpar o terminal
-tab //completa pasta
-rmdir workspace /S /Q //excluit pasta
+### **COMANDOS WINDOWS**
+- cd // navegar nas pastas ex. cd windows, cd ..
+- dir //listas de diretorios "pastas"
+- mkdir //criar uma pasta "workspace" 
+-	para entrar na pasta >cd workspace
+-	echo Hello > hello.txt
+- del/rmdir //deleta a pasta "workspace", deleta conteuno da pasta
+- cls //limpar o terminal
+- tab //completa pasta
+- rmdir workspace /S /Q //excluit pasta
 
-REALIZANDO A INSTALAÇÃO DO GIT
+### REALIZANDO A INSTALAÇÃO DO GIT
 na instalação do git, escolher a opção abaixo
 	() Git Credential Manager Core
 
 ## 3. ENTENDENDO COMO O GIT FUNCIONA POR BAIXO DOS PANOS
-* Topicos fundamentais para entender o funcionamento do Git
+**Topicos fundamentais para entender o funcionamento do Git**
 
 - SHA1: (Secure Hash Algoritm (Algoritmos de Hash seguro)), é um conjunto
 	de funções hash criptográficas projetadas pela NSA 
@@ -67,55 +71,55 @@ na instalação do git, escolher a opção abaixo
 Chave SSH
 privado/privado
 
-github, clicar seta imagem "Setting", painel lado esquerdo "SSH and GPG keys"
- Criar chave pelo Git Bash
-$ ssh-keygen -t ed25519 -C email
-$ cd /c/users/cirlei/.ssh/
-$ ls
-$ cat id_ed25519.pub 
+**github, clicar seta imagem "Setting", painel lado esquerdo "SSH and GPG keys"**
+ ## Criar chave pelo Git Bash
+- ssh-keygen -t ed25519 -C email
+- cd /c/users/cirlei/.ssh/
+- ls
+- cat id_ed25519.pub 
 //chave vai aparecer logo abaixo, selecionar e copiar para usar no git
 
 
-$ eval $(ssd-agent -s)
+- eval $(ssd-agent -s)
 //resposta é o numero de resposta Agent pid 1382
-$ ssh-add id-ed25519 
+- ssh-add id-ed25519 
 
-criar repositorio no github
-$ git clone //mas link do ssh do github
 
-## 4. PRIMEIROS COMANDO COM GIT
-* INICIANDO o git e criando um commit
- - comandos
-git init
-git add
-git commit
+## criar repositorio no github
+- git clone //mas link do ssh do github
 
-$ ls // listar
-$ cd workspace // nome da pasta
+## 4. PRIMEIROS COMANDO COM GIT - INICIANDO o git e criando um commit
+- comandos
+- git init
+- git add
+- git commit
+
+- ls // listar
+- cd workspace // nome da pasta
 control + l // limpar tudo
 
-$mkdir livro-receitas  "nome da pasta que deseja $ ls livro-receitas
-$ cd livro-receitas
-criar"
-$ git init
-$ ls
-$ ls -a // listar oculto
-$ cd . git/ // visualisa a pasta
-$ cd ..
+- mkdir livro-receitas  "nome da pasta que deseja $ ls livro-receitas
+- cd livro-receitas
+###criar"
+- git init
+- ls
+- ls -a // listar oculto
+- cd . git/ // visualisa a pasta
+- cd ..
 // Criar arquivo
-$ git config --global user.email "shirley..."
-$ git config --global user.name cirl...
-$ git add *
-$ git commit -m "commit inicial"
+- git config --global user.email "shirley..."
+- git config --global user.name cirl...
+- git add *
+- git commit -m "commit inicial"
 
 -------------------------
-Markdown 			
-# Titulo nivel 1 // tamanho do titulo
-## Titulo nivel 2
-### Titulo nivel 3
-#### Titulo nivel 4
-##### Titulo nivel 5
-###### Titulo nivel 6
+# Markdown 			
+#Titulo nivel 1 // tamanho do titulo
+##Titulo nivel 2
+###Titulo nivel 3
+####Titulo nivel 4
+#####Titulo nivel 5
+######Titulo nivel 6
 -----------------------------
 navegador 
 Titulo nivel 1
@@ -123,9 +127,9 @@ Titulo nivel 1
 Titulo nivel 6
 -----------------------------
 HTML
-<h1> Titulo nivel 1 </h1>
+<h1 > Titulo nivel 1 </h1 >
 ...
-<h6> Titulo nivel 6 </h6>
+<h6 > Titulo nivel 6 </h6 >
 -----------------------------
 
 //criar um arquivo de texto que desejar ex. nome arquivo "estrogonofe.md" sim para o aviso video 11:15
@@ -134,10 +138,10 @@ HTML
 _italico_
 espaço "-" espaço //para lista
 buscar em ajudar para ver a formação de markdown
-*****************************************************
+
 
 ## 5. CICLO DE VIDA DOS ARQUIVOS NO GIT 
-###**PASSO A PASSO NO CICLO DE VIDA**
+### **PASSO A PASSO NO CICLO DE VIDA**
 - tracked
      untracked     unmodified  		    modified      staged
 	|		|	  		|	    |
@@ -151,14 +155,14 @@ buscar em ajudar para ver a formação de markdown
 				     |    servidor	                |
 				     |    Remote repository  |
 				     -------------------------
-----------------------------------------------------------
-  Ambiente de desencolvimento			
-----------------------------------------------------------
---  working   --	    --   staging   --  	--   local    	--
--- directory   --	    --     area     --	--   respocitory --
-----------------------------------------------------------
-	   > git add	   >git commit -m
--------------------------------------------------
+
+|  Ambiente de desencolvimento	      |	
+|---------------|-------------|---------------|
+|  working         |      staging  |   	   local         |
+| directory   	|       area     |   respocitory   |
+|----------------------|----------------------|
+|	   > git add    |    > git commit -m      |
+|----------------------|----------------------|
 - ls 
 - git status
 - mkdir receitas //criar pasta
