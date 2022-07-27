@@ -147,43 +147,42 @@ buscar em ajudar para ver a formação de markdown
 	|		|			|<-commit---| >git commit -m "msg.."
 
 
-				     ---------------------
-				     --    servidor	--
-				     --	Remote repository-
-				     ---------------------
+				     ------------------------
+				     |      servidor	     |
+				     |	Remote repository |
+				     -------------------------
 ----------------------------------------------------------
--- Ambiente de desencolvimento				--
--- -----------	    ------------	---------------	--
---  working  -	    --staging --	-    local    -	--
--- directory -	    --  area  --	- respocitory -	--
--- -----------	    ------------	---------------	--
+|  Ambiente de desencolvimento			|
+-------------	    ------------	----------------|
+|  working   |	    |   staging   |	|    local    	|
+| directory   |	    |     area     |	|   respocitory 	|
+-------------	    ------------	-----------------
 	   > git add	   >git commit -m
-----------------------------------------------------------
-$ ls 
-$ git status
-$ mkdir receitas //criar pasta
-$ mv strogonof.md ./receitas //remover
-$ ls
-$ git status
-$ git add strogonof.md receitas/
-$ git status
-$ git commit -m "criar pasta receitas, mover arquivo para receitas"
-$ git status
-$ echo > README.md
-$ git status
-$ git add *
-$ ls
-$ git status
-$ git commit -m "add index"
-******************************************************
+-------------------------------------------------
+- ls 
+- git status
+- mkdir receitas //criar pasta
+- mv strogonof.md ./receitas //remover
+- ls
+- git status
+- git add strogonof.md receitas/
+- git status
+- git commit -m "criar pasta receitas, mover arquivo para receitas"
+- git status
+- echo > README.md
+- git status
+- git add *
+- ls
+- git status
+- git commit -m "add index"
 
-## 6. INTROCUÇÃO AO GITHUB
-* TRABALHANDO COM GITHUB
--------------------------------------------------------
+
+## 6. INTROCUÇÃO AO GITHUB - TRABALHANDO COM GITHUB
+
 // não fazer
 - git config -- list //para ver as configurações no git
 
-###### Criar github
+### **Criar github**
 //se o git estive configurado o comando abaixo apaga a config existente
 - git config --global --unset user.email
 - git config --global --unset user.nickname
@@ -192,6 +191,7 @@ $ git commit -m "add index"
 - git config --global --unset user.name "cir..."
 - git config -- list
 
+--------
 - git remote add origin https:// ....   //add o link
 - git remote -v
 - git status
@@ -201,13 +201,13 @@ $ git commit -m "add index"
 ## 7. RESOLVENDO CONFLITOS
 - como os conflitos acontece no GitHub e comoresolve-los
 
-#### **add alteração**
+### **add alteração**
 - ls
 - git status
 - git add *
 - ls
 - git status
-- git commit - m"add receita pave"
+- git commit - m "add receita pave"
 - git push origin master
 // ! foi regeitado
 
@@ -217,7 +217,7 @@ $ git commit -m "add index"
 - git commit -m "Resolve conflito"
 - git push origin master
 
-#### clonar repositorio existente no GitHub pelo git
+### **clonar repositorio existente no GitHub pelo git**
 - git clone https://github.com/....
 - ls
 - cd cpython/
