@@ -148,16 +148,16 @@ privado/privado
 
   
   	
-    |untracked      |unmodified             |	 modified       |    staged
-	|		        |	  		            |	                |
-    |----add o arquivo ------------------------------>          | >git add nome arquivo
-	|	            |--edita arquivo-------	|	                | >git add *
-	|<--remove arq-	|			            |	                | >git add.
-	|	    	    |			            |    <-commit---    | >git commit -m "msg.."
+    |untracked          |unmodified             |	 modified       |    staged
+    |		        |	  		|	                |
+    |----add o arquivo ------------------------------>                  | >git add nome arquivo
+    |	                |--edita arquivo-------	|	                | >git add *
+    | <--remove arq-	|			|	                | >git add.
+    |	    	        |		        |    <-commit---        | >git commit -m "msg.."
 
 
 				     |------------------------|
-				     |    servidor	          |
+				     |    servidor	      |
 				     |    Remote repository   |
 				     -------------------------
 
